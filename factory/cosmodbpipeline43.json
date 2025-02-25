@@ -1,0 +1,9 @@
+{
+	"name": "cosmodbpipeline43",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d1d88db2-6f66-48e9-99f2-e74f40488a9c",
+		"tenantId": "4ddd393a-e98a-4404-841f-c4becdd925a5"
+	}
+}
