@@ -1,0 +1,40 @@
+{
+	"name": "CosmosDbNoSqlContainer1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "CosmosDbNoSql1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "CosmosDbSqlApiCollection",
+		"schema": {
+			"type": "object",
+			"properties": {
+				"name": {
+					"type": "string"
+				},
+				"email": {
+					"type": "string"
+				},
+				"address": {
+					"type": "string"
+				},
+				"phone": {
+					"type": "string"
+				},
+				"registration_date": {
+					"type": "string"
+				},
+				"purchase_history": {
+					"type": "number"
+				},
+				"referee_id": {
+					"type": "null"
+				}
+			}
+		},
+		"typeProperties": {
+			"collectionName": "demo"
+		}
+	}
+}
